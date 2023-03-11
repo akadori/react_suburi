@@ -19,6 +19,7 @@ export const App2 = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
         />
+        <button onClick={() => setMessage("Hello World")}>Reset</button>ß
         <Foo />
         </div>
     );
